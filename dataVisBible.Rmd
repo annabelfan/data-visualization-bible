@@ -2,11 +2,15 @@
 title: "Data Visualization Bible"
 author: "Annabel Wing-Yan Fan"
 date: '2023-06-21'
-output: pdf_document
+output: 
+  tufte::tufte_handout: default
+  tufte::tufte_html: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(tufte)
 ```
 
 ## R Markdown
